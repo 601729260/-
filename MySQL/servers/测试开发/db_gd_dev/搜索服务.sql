@@ -1,0 +1,1 @@
+		select *  from t_search_goods_keyword ;

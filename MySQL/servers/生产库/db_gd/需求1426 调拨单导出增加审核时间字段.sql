@@ -1,0 +1,1 @@
+select * from u_stock_log where id='MMH2018120510008096';

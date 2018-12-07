@@ -1,0 +1,1 @@
+create table   t_gb_stock_20181204 as select * from t_gb_stock ;
