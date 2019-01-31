@@ -1,7 +1,14 @@
+
+#--查看版本
+select version();
+
 show VARIABLES like '%slow_query_log%';
 show variables like '%long_query_time%';
 
 
+show variables like '%storage_engine%';
+
+show status like '%lock%';
 
 show variables like '%lock_wait_timeout%';
 
@@ -108,9 +115,15 @@ show variables like 'long_query_time';
  show variables like 'slow%';
 
 
+#====================== 设置binlog 最大值
+show variables like 'max_binlog_cache_size';
+SET GLOBAL max_binlog_cache_size =536870912;
+SET GLOBAL binlog_cache_size =20971520;
 
 
+#=====================mysql查看并设置隔离级别
 
+SELECT @@tx_isolation
 
 
 

@@ -29,3 +29,5 @@ where  id in ('MMH2018111710005696','MMH2018112210007749');
 update u_stock_log_detail set to_num=from_num where  id in ('MMH2018111710005696','MMH2018112210007749') and from_num>0;
 
 select * from  u_stock_log_detail b where b.id in('MMH2018111710005696','MMH2018112210007749') and item_num_id=1000027252;
+
+select * from u_goods_stock_log;

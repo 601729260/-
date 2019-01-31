@@ -416,6 +416,9 @@ delete from   GB_STORAGE_O2O_TEMP where SYNC_BATCH_ID in (201810291645397631,
 select distinct sync_batch_id from gb_share_item_temp;
 
 
+delete from gb_share_item_temp where item_num_id=314625;
+
+
 
 			
 			
@@ -465,20 +468,97 @@ select distinct sync_batch_id from gb_share_item_temp;
 	 		RPT_DIV_NUM_ID,
 			PACKAGE_SIGN,
 			S_YEAR_SEASON,
-			BRAND_ID
+			BRAND_ID 
 		FROM GB_SHARE_ITEM_TEMP T1 WHERE NOT EXISTS(
 			SELECT 1 FROM GB_SHARE_ITEM T2
 			 WHERE 
 			 T2.BARCODE_1 = T1.BARCODE_1
 		)
-		and T1.SYNC_BATCH_ID  in (201811261025147490,
-201811300145139002,
-201811261025177492,
-201811261025237496);
+		and not exists(select 1 FROM GB_SHARE_ITEM T3
+			 WHERE 
+			 T3.item_num_id = T1.item_num_id)
+		and T1.SYNC_BATCH_ID  in (201812141105076315,
+201812141105096316,
+201812141105206321);
 		
-				delete from  GB_SHARE_ITEM_TEMP where SYNC_BATCH_ID  in (201811261025147490,
-201811300145139002,
-201811261025177492,
-201811261025237496);
+				delete from  GB_SHARE_ITEM_TEMP where SYNC_BATCH_ID  in （201812141105076315,
+201812141105096316,
+201812141105206321);
 				
 				
+				select gt_name from t_goods_type where gt_id =0 limit 1;
+				
+				select style_catelog_first from gb_style limit 1;
+				
+				
+		select * from u_stock_log_detail where barcode='6970673110013' and id='MMH2018121310014338';
+		
+		select * from u_stock_log where id='MMH2018121310014350';
+		
+		
+				select * from u_stock_log_his where id='MMH2018121310014350';
+				
+				
+		update u_stock_log set status=5 where id='MMH2018121310014350';
+		
+		select * from u_stock_log_detail where  id='MMH2018121310014350';
+		
+		select * from u_goods_stock_log where id='MMH2018121310014350';
+		
+		
+		select * from u_stock_log_detail where id='MMH2018121010013379' and barcode='3760179012316';
+		
+		update u_stock_log_detail set cost_price='98.00' ,total_cost_price=from_num*cost_price  where id='MMH2018121010013379' and barcode='3760179012316';
+		
+		
+		#########################################################
+		
+		
+		select distinct sync_batch_id from GB_BRAND_TEMP ;
+		
+INSERT INTO GB_BRAND(	 SERIES,
+			 BRAND_NUM_ID,
+			 BRAND_NAME
+		)SELECT SERIES , BRAND_NUM_ID ,BRAND_NAME
+		FROM GB_BRAND_TEMP T1 WHERE NOT EXISTS(
+			SELECT 1 FROM GB_BRAND T2
+			 WHERE 
+			 T2.BRAND_NUM_ID=T1.BRAND_NUM_ID
+		)
+		and T1.SYNC_BATCH_ID='201901121004226553';
+		
+		
+		
+	UPDATE GB_BRAND T1 
+			INNER JOIN GB_BRAND_TEMP T2 ON 
+			T2.BRAND_NUM_ID=T1.BRAND_NUM_ID 
+			SET
+			T1.SERIES 		= 	T2.SERIES, 
+			T1.BRAND_NAME = 	T2.BRAND_NAME
+			where T2.SYNC_BATCH_ID='201901121004226553';
+		
+	
+
+INSERT INTO GB_BRAND_TEMP_HIS
+	(SYNC_BATCH_ID,
+		SYNC_STATUS,
+		SERIES,
+		BRAND_NUM_ID,
+		BRAND_NAME
+		)
+		select 
+		SYNC_BATCH_ID,
+		1,
+		SERIES,
+		BRAND_NUM_ID,
+		BRAND_NAME from 
+			GB_BRAND_TEMP T2 where T2.SYNC_BATCH_ID='201901121004226553';
+			
+			
+delete from GB_BRAND_TEMP where SYNC_BATCH_ID='201901121004226553';
+			
+			
+
+		
+		
+		

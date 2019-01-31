@@ -568,8 +568,7 @@ VALUES (999, 'wgnzd', 'wgn总店', '15570012345', 'a84d92caaaea25644909730d550f4
 
 delete from `mamahao_pos`.`u_staff` where staff_id=666666;
 INSERT INTO `mamahao_pos`.`u_staff`(`staff_id`, `staff_work_number`, `staff_name`, `staff_phone`, `staff_pwd`, `staff_sex`, `role_type`, `shop_id`, `state`, `remark`, `offer_date`, `create_time`, `update_time`, `staff_birthday`, `staff_pic`, `staff_tags`, `dispatch_password`) 
-VALUES (666666, 'wgnck', '王冠楠仓库', '15570012305', '37b980c9c85259ff7889ebcd5022c3c1', 1, 47,1800000001 , 1, 'aaa', '2018-07-08', '2018-08-14 16:52:16', '2018-08-21 14:45:32', '1990-08-14', 'https://img.mamahao.com/s/m/images/bd_touxiang.png', '人好,漂亮,手法好', NULL);
-
+VALUES (666666, 'wgnck', '王冠楠仓库', '15570012305', '37b980c9c85259ff7889ebcd5022c3c1', 1, 47,1800000080 , 1, 'aaa', '2018-07-08', '2018-08-14 16:52:16', '2018-08-21 14:45:32', '1990-08-14', 'https://img.mamahao.com/s/m/images/bd_touxiang.png', '人好,漂亮,手法好', NULL);
 
 
 delete from `mamahao_pos`.`u_staff` where staff_id=9991;

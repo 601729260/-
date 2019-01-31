@@ -143,3 +143,8 @@ app_to_num int(10) DEFAULT NULL COMMENT 'APP临时保存的收货数量 实际�
   src_type int(10) DEFAULT NULL COMMENT ' 数据来源 ',
 PRIMARY KEY (`seq_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=440 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci comment '单据记录明细表#U#AC#AS#AU#R';
+
+
+
+
+
