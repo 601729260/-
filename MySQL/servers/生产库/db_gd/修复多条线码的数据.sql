@@ -51,3 +51,6 @@ where a.id in ('MMH2019013010029268');
 select total_price from u_stock_log;
 
 select  total_price from u_stock_log_detail;
+
+
+

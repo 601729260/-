@@ -1,15 +1,15 @@
 #检查门店是否有异常库存
 
-select a.shop_id,a.item_num_id,a.qty,ifnull(c.qty_change,0),ifnull(b.qty,0) bak_qty from t_gb_stock a left join t_gb_stock_20190129 b on a.shop_id=b.shop_id  and a.item_num_id=b.item_num_id
+select a.shop_id,a.item_num_id,a.qty,ifnull(c.qty_change,0),ifnull(b.qty,0) bak_qty ,a.qty-ifnull(b.qty,0)-ifnull(c.qty_change,0) from t_gb_stock a left join t_gb_stock_20190129 b on a.shop_id=b.shop_id  and a.item_num_id=b.item_num_id
 left join  (select sid,item_num_id,sum(qty_change) as qty_change from u_goods_stock_log c where c.create_time>='2019-01-30 00:00:00'  and sid_type=2  group by sid,item_num_id) c
 on a.shop_id=c.sid and a.item_num_id=c.item_num_id
 where a.shop_id > 150000000 
 and  a.qty!=ifnull(b.qty,0)+ifnull(c.qty_change,0) union all 
 #检查仓库是否有异常库存
-select a.storage_id,a.item_num_id,(a.qty+a.p_qty) as total_qty,ifnull(c.total_qty_change,0),ifnull(b.qty+b.p_qty,0) bak_qty from t_gb_stock a left join t_gb_stock_20190129 b on a.storage_id=b.storage_id  and a.item_num_id=b.item_num_id
-left join  (select sid,item_num_id,sum(qty_change+p_qty_change) as total_qty_change from u_goods_stock_log c where c.create_time>='2019-01-30 00:00:00'  and sid_type=3  and bill_type!=3 group by sid,item_num_id) c
+select a.storage_id,a.item_num_id,(a.qty+a.p_qty) as total_qty,ifnull(c.total_qty_change,0),ifnull(b.qty+b.p_qty,0) bak_qty,a.qty+a.p_qty-ifnull(b.qty+b.p_qty,0)-ifnull(c.total_qty_change,0) from t_gb_stock a left join t_gb_stock_20190129 b on a.storage_id=b.storage_id  and a.item_num_id=b.item_num_id
+left join  (select sid,item_num_id,sum(qty_change+p_qty_change) as total_qty_change from u_goods_stock_log c where c.create_time>='2019-01-30 00:00:00'  and sid_type=3  and bill_type!=3  or (bill_type=3 and operate_type=5) group by sid,item_num_id) c
 on a.storage_id=c.sid and a.item_num_id=c.item_num_id
-where a.storage_id > 1800000000 
+where a.storage_id in(1800000080)
 and  a.qty+a.p_qty!=ifnull(b.qty+b.p_qty,0)+ifnull(c.total_qty_change,0) ;
 
 
@@ -73,7 +73,8 @@ group by id,sid,item_num_id) aa
 right join 
 (select order_no ,good_item_id as item_id ,sum(-count) as item_count from u_order_deposit b where b.created_time>='2019-01-30 00:00:00' group by  order_no ,good_item_id) bb
 on aa.id=bb.order_no and aa.item_num_id=bb.item_id
-where ifnull(aa.qty_change,0)!=bb.item_count union all 
+where ifnull(aa.qty_change,0)!=bb.item_count 
+union all 
 #检查线上订单是否有异常
 select  aa.id,bb.order_no,aa.sid,aa.item_num_id, aa.qty_change,bb.item_num_id as item_id,bb.qty_change as item_count  from 
 (
@@ -100,4 +101,11 @@ group by order_no,item_num_id
 on aa.id=bb.order_no and aa.item_num_id=bb.item_num_id
 where ifnull(aa.qty_change,0)!=bb.qty_change;
 
+
+select * from t_member_mbean order by desc
+
+
+
+select * from  u_stock_log_detail where id='MMH2019021510031372' and item_num_id=1100001704;
+select * from  u_goods_stock_log where id='MMH2019021510031372'  and item_num_id=1100001704;
 

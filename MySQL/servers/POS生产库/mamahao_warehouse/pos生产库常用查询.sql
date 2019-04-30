@@ -1,0 +1,1 @@
+select * from u_staff where shop_id=1;

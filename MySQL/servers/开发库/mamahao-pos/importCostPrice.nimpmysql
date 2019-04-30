@@ -1,0 +1,4893 @@
+{
+    "Version": 1.0,
+    "General": {
+        "AccessDBPassword": "",
+        "AccessLogonName": "",
+        "AccessLogonPassword": "",
+        "AccessSystemDBFile": "",
+        "BinaryDataEncoding": "Base64",
+        "BreakLines": "",
+        "Catalog": "",
+        "ContinueOnError": true,
+        "CreateAutoInc": false,
+        "DateDelimiter": "/",
+        "DateOrder": "DMY",
+        "DateTimeOrder": "DateTime",
+        "DecimalSymbol": ".",
+        "Encoding": 65001,
+        "FieldDelimiter": "Tab",
+        "FieldNameRow": 1,
+        "FieldSeparationType": "Delimited",
+        "FirstDataRow": 2,
+        "FourDigitYears": true,
+        "ImportDeletedRecords": false,
+        "ImportMode": "Append",
+        "ImportType": "Excel",
+        "IncludeTagAttributesAsTableField": false,
+        "IncludeUniqueIndexFKey": false,
+        "JsonTagIdentifierObj": {
+            "JsonTagName": "",
+            "JsonParentTagName": "",
+            "JsonTagLevel": 0,
+            "JsonTagType": "Object"
+        },
+        "LastDataRow": 0,
+        "Project": "",
+        "ProjectOwnerNavicatID": "",
+        "RecordDelimiter": "CRLF",
+        "RunMultipleQueriesInEachExecution": true,
+        "Schema": "mamahao_pos",
+        "Server": "测试开发库",
+        "TextQualifier": "\"",
+        "ThousandSeparator": ",",
+        "TimeDelimiter": ":",
+        "UseEmptyStringAsNull": false,
+        "UseForeignKeyConstraint": false,
+        "XMLTagIdentifier": ""
+    },
+    "ImportSources": [
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/博世宝店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/城北店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/大新店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/大义店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/枫景苑店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/浮桥店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/合丰店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/合兴店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/横泾店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/红枫店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/浒关店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/华庄店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/黄桥店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/荟聚店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/金山店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/金鹰店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/锦丰店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/跨塘店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/蓝天广场店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/临湖店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/甪直店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/梅村店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/梅李店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/门店仓.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/木渎店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/濮院店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/千灯店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/庆丰店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/沙溪店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/上海文峰店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/佘山店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/胜浦店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/石牌店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/世茂店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/硕放店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/万达店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/唯亭店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/萧林店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/新城域店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/阳澄湖店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/印象城店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/迎春店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/又一城店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/樾河店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/张浦店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/长青店.xls",
+            "SourceQueries": []
+        },
+        {
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/周巷店.xls",
+            "SourceQueries": []
+        }
+    ],
+    "TableMappings": [
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/博世宝店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": "seq_id"
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": "average_cost_price"
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": "sid_name"
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": "barcode"
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": "sku_name"
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": "qty"
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": "total_cost_price"
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": "sid"
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/城北店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/大新店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/大义店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/枫景苑店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/浮桥店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/合丰店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/合兴店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/横泾店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/红枫店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/浒关店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/华庄店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/黄桥店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/荟聚店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/金山店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/金鹰店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/锦丰店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/跨塘店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/蓝天广场店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/临湖店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/甪直店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/梅村店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/梅李店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/门店仓.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/木渎店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/濮院店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/千灯店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/庆丰店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/沙溪店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/上海文峰店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/佘山店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/胜浦店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/石牌店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/世茂店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/硕放店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/万达店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/唯亭店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/萧林店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/新城域店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/阳澄湖店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/印象城店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/迎春店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/又一城店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/樾河店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/张浦店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/长青店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        },
+        {
+            "ConditionalQuery": "",
+            "IsNewTable": false,
+            "IsUserDefinedQuery": false,
+            "SourceFile": "/Users/wangguannan/Downloads/初始数据/周巷店.xls",
+            "SourceSchema": "",
+            "SourceTableName": "Sheet1",
+            "TargetTableName": "wgn_init_average_price",
+            "FieldMappings": [
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "行号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "平均成本价",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店名称",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "货号",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "品名",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "库存数量",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "成本金额",
+                    "TargetFieldName": ""
+                },
+                {
+                    "FieldAutoIncrement": false,
+                    "FieldIsNullable": true,
+                    "FieldLength": 255,
+                    "FieldScale": 0,
+                    "FieldType": "varchar",
+                    "IsKey": false,
+                    "IsSelected": true,
+                    "SourceFieldName": "门店编码",
+                    "TargetFieldName": ""
+                }
+            ]
+        }
+    ]
+}

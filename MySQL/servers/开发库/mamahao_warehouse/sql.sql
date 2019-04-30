@@ -1,0 +1,1 @@
+create index index_update_time on t_member_mbean(update_time);

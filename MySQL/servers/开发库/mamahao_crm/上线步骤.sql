@@ -1,0 +1,1 @@
+create index index_price on  t_crm_consume_analyse(total_consume_price);
