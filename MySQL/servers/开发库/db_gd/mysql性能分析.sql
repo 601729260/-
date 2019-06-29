@@ -31,6 +31,11 @@ select * from information_schema.PROCESSLIST where host like '%192.168.1.4%';
 
 select * from information_schema.PROCESSLIST where host like '%192.168.1.196%';
 
+
+select * from information_schema.PROCESSLIST where host like '%192.168.1.75%';
+ kill 17398;
+ 
+ 
 show status;
 
 select * from information_schema.status;
@@ -71,6 +76,7 @@ show full processlist;
 
 select trx_state, trx_started, trx_mysql_thread_id, trx_query from information_schema.innodb_trx
  kill 33034;
+ kill 17408;
 #mysql临时文件目录
 
 show VARIABLES like '%tmp%';

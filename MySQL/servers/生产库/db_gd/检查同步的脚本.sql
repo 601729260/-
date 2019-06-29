@@ -287,7 +287,7 @@ UPDATE GB_CORT_ORN T1
 		SET
 			T1.ORN_NUM_ID = T2.ORN_NUM_ID, 
 			T1.ORN_NAME = T2.ORN_NAME
-			where  T2.SYNC_BATCH_ID in (201904021125491128)
+			where  T2.SYNC_BATCH_ID in (201906041544488420)
 
 INSERT INTO GB_CORT_ORN
 		(	 
@@ -300,9 +300,9 @@ INSERT INTO GB_CORT_ORN
 			SELECT 1 FROM GB_CORT_ORN T2
 			 WHERE 
 			 T2.ORN_NUM_ID = T1.ORN_NUM_ID
-		) and T1.SYNC_BATCH_ID in (201904021125491128)
+		) and T1.SYNC_BATCH_ID in (201906041544488420)
 		
-		delete from GB_CORT_ORN_TEMP where SYNC_BATCH_ID in (201904021125491128);
+		delete from GB_CORT_ORN_TEMP where SYNC_BATCH_ID in (201906041544488420);
 
 #---------------------gb_cort_orn_sub_temp----------------------------------
 select * from  gb_cort_orn_sub_temp ;

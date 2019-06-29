@@ -26,6 +26,8 @@ truncate  table t_star_shop_goods_bonus_approve_detail;
 select * from t_star_shop_goods_bonus_approve_batch order by batch_id desc;
 
 select * from t_star_shop_goods_bonus_approve_detail order by batch_id desc limit 100;
+
+
 select * from t_star_shop_goods_bonus_approve_detail where batch_id=10490;
 
 select * from t_star_shop_goods_bonus_approve_detail where detai_id=347577;
@@ -47,12 +49,6 @@ select * from t_star_shop_goods_bonus_log_ext where item_num_id=469632 ;
 
 
 
-2019-04-28 20:33:53
-
-2019-04-28 20:33:53
-
-
-2019-04-28 20:50:01
 
 
 

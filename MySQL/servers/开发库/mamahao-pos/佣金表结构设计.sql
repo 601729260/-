@@ -149,6 +149,39 @@ alter table t_star_member_sales_detail add `sale_status` int(11) NOT NULL COMMEN
 alter table t_star_member_sales add  `order_type` int(11) DEFAULT '1' COMMENT '订单类型';
 
 
+drop table t_star_member_not_caculate;
+CREATE TABLE `t_star_member_not_caculate` (
+  `order_no` varchar(64) NOT NULL COMMENT '订单编号',
+  `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+	remark varchar(64)  COMMENT '备注',
+  PRIMARY KEY (`order_no`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='不再重复计算的订单';
+insert into t_star_member_not_caculate(order_no,remark) values('149040159160491','已送优惠，此处不再给');
+
+
+select * from t_star_member_not_caculate;
+
+
+DROP TABLE IF EXISTS `t_star_member_sales_config`;
+CREATE TABLE `t_star_member_sales_config` (
+  `sales_config_id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '自增序列',
+  `order_no` varchar(64) NOT NULL COMMENT '订单编号',
+  `sale_type` int(11) DEFAULT NULL COMMENT '销售类型:3我的销售-自购下单，4我的销售-专属会员下单，5团队销售-直属店长自购，6团队销售-间接会员下单 7邀请奖励-直邀好友开店 8邀请奖励-间接邀好友开店',
+  `item_num_id` bigint(20) NOT NULL COMMENT '商品ID',
+  `rate` decimal(20,5) DEFAULT NULL COMMENT '商品比例',
+  `create_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  `barcode` varchar(64) DEFAULT NULL COMMENT '条形码',
+	direct_bonus decimal(20,6) NOT NULL COMMENT '直接佣金',
+	indirect_bonus decimal(20,6) NOT NULL COMMENT '间接佣金',
+	user_id bigint(20)  NOT NULL COMMENT '用户ID',
+  user_name varchar(32)  NOT NULL COMMENT '真实姓名',
+  PRIMARY KEY (`order_no`,barcode),
+	key index_id(sales_config_id),
+  KEY `index_order_no` (`order_no`)
+) ENGINE=InnoDB AUTO_INCREMENT=408 DEFAULT CHARSET=utf8 COMMENT='自定义佣金比例计算';
+
 
 
 

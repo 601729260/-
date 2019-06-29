@@ -71,12 +71,17 @@ and relation_type=15
 order by created_time desc limit 100;
 
 
-select * from db_gd.t_order a where a.dealing_type not in (4,5) 
+select * from t_order a where a.dealing_type not in (4,5) 
 and a.delivery_way!=2 
 and a.order_type in (1,6) 
 and order_state in (0,4,5,6,9)
-and member_id=1994073
+#and member_id=1994073
+and payment_time is not null
+and member_id in (select b.member_id from t_member_star b where  star_level>0)
 order by created_time desc limit 100;
+
+
+select * from t_member_star ;
 
 select * from db_gd.t_order_line where order_no=147070156708405;
 
