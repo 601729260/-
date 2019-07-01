@@ -20,13 +20,13 @@ sum(case a.virtual_stock_type when 5 then a.qty else 0 end) as 格林仓 ,
 sum(case a.virtual_stock_type when 6 then a.qty else 0 end) as 积分仓 ,
 sum(case a.virtual_stock_type when 7 then a.qty else 0 end) as 中转仓 ,
 sum(case a.virtual_stock_type when 8 then a.qty else 0 end) as 特殊用品仓 ,
-d.purchase_price as 采购价,
+d.purchase_price/100 as 采购价（元）,
 d.purchase_price*(sum(case a.virtual_stock_type when 2 then a.qty else 0 end)+sum(case a.virtual_stock_type when 3 then a.qty else 0 end)+sum(case a.virtual_stock_type when 4 then a.qty else 0 end)+sum(case a.virtual_stock_type when 5 then a.qty else 0 end)+sum(case a.virtual_stock_type when 6 then a.qty else 0 end)+sum(case a.virtual_stock_type when 7 then a.qty else 0 end)+sum(case a.virtual_stock_type when 8 then a.qty else 0 end)
-) as  采购总额
+)/100 as  采购总额（元）
 from t_virtual_stock  a
 left join gb_share_item c on a.item_num_id=c.item_num_id and c.IS_DELETED=0
 left join gb_share_item_ext d on a.item_num_id=d.item_num_id 
-left join gb_style e on c.style_num_id=d.style_num_id
+left join gb_style e on c.style_num_id=e.style_num_id
 where  a.qty>0 and a.sid=1800000080
 group by e.style_title,c.barcode_1;
 
