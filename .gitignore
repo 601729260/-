@@ -1,0 +1,4 @@
+*.xlsx
+*.db
+*.db-shm
+*.db-wal
