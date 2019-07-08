@@ -81,14 +81,15 @@ FROM
 	u_stock_log_detail a left join gb_cort_sub_unit b  on a.to_sid=b.sub_unit_num_id
 	left join gb_style  c on a.style_num_id=c.style_num_id
 WHERE
-a.id in ('MMH2019062810070340',
-'MMH2019062910070370',
-'MMH2019062910070371',
-'MMH2019062910070372',
-'MMH2019062910070442',
-'MMH2019062910070535')
+a.bill_type=5
+and a.to_sid=1800000080
+and a.status=15
+#and DATE_FORMAT(a.create_time,'%Y%m%d')=20190628 
+and a.create_time>='2019-06-28 00:00:00'
+and a.create_time<='2019-07-01 23:59:59'
 ORDER BY
-	id;
+	a.create_time desc;
+	
 	
 	
 	

@@ -557,6 +557,11 @@ INSERT INTO GB_BRAND_TEMP_HIS
 delete from GB_BRAND_TEMP where SYNC_BATCH_ID='201901121004226553';
 			
 			
+			
+		delete from  	gb_catelog_pty3_temp;
+		
+		
+
 
 		
 		
