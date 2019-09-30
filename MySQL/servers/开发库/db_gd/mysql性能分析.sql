@@ -63,8 +63,8 @@ show variables like 'MAX_HEAP_TABLE_SIZE';
 show global variables like 'MAX_HEAP_TABLE_SIZE';
 
 
-
-
+# 检查锁表情况
+show OPEN TABLES where In_use > 0;
 # 处理锁表
 show status like 'Table%';
 
@@ -72,11 +72,17 @@ show OPEN TABLES where In_use > 0;
 
 UNLOCK TABLES;
 
-show full processlist;
+show full processlist where id =738053;
+
+select * from information_schema.PROCESSLIST where id in (738051,738052,738053);
+
+
+
 
 select trx_state, trx_started, trx_mysql_thread_id, trx_query from information_schema.innodb_trx
- kill 33034;
- kill 17408;
+ kill 736629;
+ kill 737559;
+ kill 737874;
 #mysql临时文件目录
 
 show VARIABLES like '%tmp%';

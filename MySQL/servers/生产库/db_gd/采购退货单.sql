@@ -23,8 +23,8 @@ inner join u_goods_stock_log e on a.id=e.id and e.item_num_id=a.item_num_id
 WHERE
 	a.bill_type = 6 
 	AND a.STATUS  in(13)  
-	AND e.create_time > '2019-06-01 00:00:00' 
-		AND e.create_time < '2019-06-30 23:59:59' 
+	AND e.create_time > '2019-08-01 00:00:00' 
+		AND e.create_time < '2019-08-31 23:59:59' 
 	and a.to_sid<>1800000088
 ORDER BY
 	a.id;

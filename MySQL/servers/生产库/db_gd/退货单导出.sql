@@ -18,8 +18,8 @@ FROM
 WHERE
 	a.bill_type = 3 
 	AND a.STATUS not in (16) 
-	AND a.create_time > '2018-11-00 00:00:00' 
-		AND a.create_time < '2018-12-31 23:59:59' 
+	AND a.create_time > '2019-08-01 00:00:00' 
+		AND a.create_time < '2019-08-31 23:59:59' 
 	and a.to_sid<>1800000088
 ORDER BY
 	a.id;

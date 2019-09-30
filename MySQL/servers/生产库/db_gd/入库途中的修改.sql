@@ -19,7 +19,7 @@ select * from u_stock_log_detail where id='MMH2018112310008070' and barcode=6922
 
 select count(1) from t_gb_stock where in_qty!=0 and shop_id!=0;
 
-
+# 检查脚本
 
 select t1.shop_id,t1.in_qty,ifnull(t2.num,0)  from t_gb_stock t1 left  join 
 (select to_sid,item_num_id,sum(num) as num from 
@@ -125,7 +125,7 @@ and t1.out_qty<>t2.num;
 
 
 # 修复门店入库途中
-create table wgn_gb_stock_bak20181217_1 as select * from t_gb_stock t1 where  t1.in_qty!=0 and t1.shop_id!=0;
+create table wgn_gb_stock_bak20190718_1 as select * from t_gb_stock t1 where  t1.in_qty!=0 and t1.shop_id!=0;
 update t_gb_stock t1 left  join 
 (select to_sid,item_num_id,sum(num) as num from 
 (select to_sid,item_num_id,sum(from_num)  as num from u_stock_log_detail where bill_type in (1,2,3) and status in (1,3,5) group by to_sid,item_num_id union all
@@ -136,7 +136,7 @@ where  t1.in_qty!=0 and t1.shop_id!=0
 and t1.in_qty<>t2.num;
 
 #修复仓库入库途中
-create table wgn_gb_stock_bak20181217_2 as select * from t_gb_stock t1 where  t1.in_qty!=0 and t1.storage_id!=0;
+create table wgn_gb_stock_bak20190718_2 as select * from t_gb_stock t1 where  t1.in_qty!=0 and t1.storage_id!=0;
 
 update t_gb_stock t1 left  join 
 (select to_sid,item_num_id,sum(num) as num from 
@@ -147,7 +147,7 @@ set t1.in_qty=ifnull(t2.num,0)
 where  t1.in_qty!=0 and t1.storage_id!=0
 and t1.in_qty<>t2.num;
 #修复仓库出库途中
-create table wgn_gb_stock_bak20181217_3 as select * from  t_gb_stock t1 where  t1.out_qty!=0 and t1.storage_id!=0;
+create table wgn_gb_stock_bak20190718_3 as select * from  t_gb_stock t1 where  t1.out_qty!=0 and t1.storage_id!=0;
 
 update t_gb_stock t1 left  join 
 (select from_sid,item_num_id,sum(from_num)  as num from u_stock_log_detail where bill_type in (1,2,3) and status in (1,3,5) group by from_sid,item_num_id  ) t2
@@ -157,8 +157,8 @@ where  t1.out_qty!=0 and t1.storage_id!=0
 and t1.out_qty<>t2.num;
 
 
-
-create table wgn_gb_stock_bak20181217_4 as select * from t_gb_stock t1 where t1.out_qty!=0 and t1.shop_id!=0;
+#修复门店出库途中
+create table wgn_gb_stock_bak20190718_4 as select * from t_gb_stock t1 where t1.out_qty!=0 and t1.shop_id!=0;
 
 update t_gb_stock t1 left  join 
 (select from_sid,item_num_id,sum(from_num)  as num from u_stock_log_detail where bill_type in (1,2,3) and status in (1,3,5) group by from_sid,item_num_id  ) t2
@@ -168,3 +168,12 @@ where  t1.out_qty!=0 and t1.shop_id!=0
 and t1.out_qty<>t2.num;
 
 
+select * from t_gb_stock_20190717 limit 10;
+
+select * from t_gb_stock_20190717 limit 10;
+
+
+
+select  cost_price from gb_share_item_ext limit 100;
+
+select avarage_cost_price from t_average_cost_price limit 100;

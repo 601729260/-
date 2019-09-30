@@ -109,7 +109,7 @@ order by created_time desc limit 100;
 
 #-------------------------------
 #用户
-select * from `mamahao-user`.t_member where member_id=123;
+select * from `mamahao-user`.t_member where member_id=1995471;
 
 
 select sum(if(sale_type not in(7,8),0,sale_amount) ) from t_star_member_sales;
@@ -118,18 +118,31 @@ select sum(if(sale_type not in(7,8),0,sale_amount) ) from t_star_member_sales;
 
 
 
+select * from t_order where order_no=153270193473177;
+
+
+18655214478
 
 
 
+select * from `mamahao-pos`.t_star_member_sales where order_no='153290167717137';
 
-select * from t_order where order_no=148040174026219;
-
-
-
+select  * from `mamahao-pos`.t_star_member_sales_detail where order_no='153290167717137';
 
 
 
+#delete  from `mamahao-pos`.t_star_member_sales where order_no='153290167717137';
 
+#delete from `mamahao-pos`.t_star_member_sales_detail where order_no='153290167717137';
+
+
+select * from t_order where member_phone='13460386127';
+
+select * from t_star_member_income;
+
+select * from t_star_member_sales_detail where order_member_id=2041466 and member_id=2041428;
+
+select * from t_star_member_accumulated_income where member_id=2041297 limit 100;
 
 
 

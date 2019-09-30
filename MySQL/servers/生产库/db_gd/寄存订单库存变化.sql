@@ -26,3 +26,15 @@ where
 a.create_time<='2018-10-31 23:59:59' ;
 
 
+
+
+select * from u_goods_stock_log where id='MPOS150260115205178';
+
+delete from  u_goods_stock_log where seq_id=2285228;
+
+update u_goods_stock_log set item_num_id=1000003021 where seq_id=2338637;
+
+
+
+
+

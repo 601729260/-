@@ -33,6 +33,12 @@ and ( a.qty-ifnull(b.qty,0)-c.qty_change!=0 or a.p_qty-ifnull(b.p_qty,0)-c.p_qty
 
 
 
+select concat("{\"sid\":",a.shop_id,",\"sidType\":2,\"pdQtyChange\":0,\"dealRedis\":true,\"itemNumId\":",a.item_num_id,",\"qtyChange\":",-(a.qty-ifnull(b.qty,0)-c.qty_change),"}") from t_gb_stock a left join t_gb_stock_20190609 b on a.shop_id=b.shop_id  and a.item_num_id=b.item_num_id
+left join  (select sid,item_num_id,sum(qty_change) as qty_change from u_goods_stock_log c where c.create_time>='2019-06-10 00:00:00'  and sid_type=2  group by sid,item_num_id) c
+on a.shop_id=c.sid and a.item_num_id=c.item_num_id
+where a.shop_id > 150000000  and a.shop_id!=1500000150
+and  a.qty!=ifnull(b.qty,0)+ifnull(c.qty_change,0)
+
 
 #检查门店线下订单是否有异常数据
 select  aa.id,bb.order_no,aa.sid,aa.item_num_id, aa.qty_change,bb.item_id,bb.item_count  from 
@@ -245,10 +251,12 @@ select * from t_order_line where order_no=146030125011716;
 146120106854538  146120106854538
 146120117122792  146120117122792
 
+1500000106	1100006056
+1500000106	1100006062
+1500000107	1100017844
 
 
-
-select * from u_goods_stock_log where sid=1500000147 and item_num_id=1000001383;
+select * from u_goods_stock_log where sid=1500000106 and item_num_id=1100006056;
 
 select * from t_gb_stock where shop_id=1500000147 and item_num_id=1000001383;
 
