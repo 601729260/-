@@ -185,3 +185,19 @@ CREATE TABLE `t_star_member_sales_config` (
 
 
 
+
+
+alter table t_star_member_sales add delivery_sid bigint(20) COMMENT '发货单位';
+alter table t_star_member_sales add delivery_sid_name varchar(32) comment '发货单位名称';
+alter table t_star_member_sales_detail add delivery_sid bigint(20) COMMENT '发货单位';
+alter table t_star_member_sales_detail add delivery_sid_name varchar(32) comment '发货单位名称';
+
+
+
+
+
+
+
+
+
+

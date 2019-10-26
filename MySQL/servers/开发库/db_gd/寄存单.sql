@@ -143,7 +143,11 @@ delete from u_order_deposit where id=110669;
 
 
 
-select * from t_stock_ext where item_num_id=1100007522 and sid=1500000113 limit 100;
+
+select * from t_stock_ext where item_num_id=1000003021 and sid=1500000110 limit 100;
+
+update t_stock_ext set deposit_qty=0  where item_num_id=1000003021 and sid=1500000110 limit 100;
+
 
 update t_stock_ext set deposit_qty=0 where item_num_id=1100007522 and sid=1500000113
 

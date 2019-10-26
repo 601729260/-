@@ -34,7 +34,7 @@ delete from  u_goods_stock_log where seq_id=2285228;
 
 update u_goods_stock_log set item_num_id=1000003021 where seq_id=2338637;
 
-
+select  * from t_deposit_order limit 100;
 
 
 
