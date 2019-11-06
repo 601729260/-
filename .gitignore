@@ -2,3 +2,6 @@
 *.db
 *.db-shm
 *.db-wal
+id_cache.db
+id_cache.db-shm
+id_cache.db-wal
