@@ -16,3 +16,10 @@ select count(1)   from mamahao_warehouse.t_order a where payment_time>='2019-10-
 
 
 select UNIX_TIMESTAMP('2019-10-31 23:59:59')*1000 from dual;
+
+
+
+select * from mamahao_warehouse.t_star_member_sales_detail_tmp where order_no='154100130824931';
+
+
+select count(1) from mamahao_warehouse.t_star_member_sales_detail_tmp;

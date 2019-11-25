@@ -1,4 +1,7 @@
 
+select  * from  gb_share_item where barcode_1=6970959013106;
+
+select * from t_gb_stock where item_num_id=1100018931;
 	
 	
 	SELECT
@@ -22,7 +25,7 @@ FROM
 WHERE
 	a.in_qty != ifnull( b.in_qty, 0 ) 
 	AND a.shop_id != 0
-	and a.in_qty>0;
+	and a.in_qty!=0;
 	
 	
 SELECT
@@ -46,7 +49,7 @@ FROM
 WHERE
 	a.in_qty != ifnull( b.in_qty, 0 ) 
 	AND a.storage_id != 0
-	and a.in_qty>0;
+	and a.in_qty!=0;
 	
 	
 	
@@ -73,6 +76,9 @@ FROM
 WHERE
 	a.out_qty != ifnull( b.out_qty, 0 ) 
 	AND a.shop_id != 0;
+	
+	
+	
 SELECT
 	* 
 FROM
@@ -116,7 +122,7 @@ left JOIN (
 WHERE
 	a.in_qty != ifnull( b.in_qty, 0 ) 
 	AND a.shop_id != 0
-	and a.in_qty>0;
+	and a.in_qty!=0;
 	
 	
 UPDATE t_gb_stock a
@@ -138,7 +144,7 @@ left JOIN (
 WHERE
 	a.in_qty != ifnull( b.in_qty, 0 ) 
 	AND a.storage_id != 0
-	and a.in_qty>0;
+	and a.in_qty!=0;
 	
 	
 	
@@ -162,7 +168,7 @@ left JOIN (
 WHERE
 	a.out_qty != ifnull( b.out_qty, 0 ) 
 	AND a.shop_id != 0
-	and a.in_qty>0;
+	and a.out_qty!=0;
 	
 	
 	
@@ -185,6 +191,6 @@ left JOIN (
 WHERE
 	a.out_qty != ifnull( b.out_qty, 0 ) 
 	AND a.storage_id != 0
-	and a.in_qty>0;
+	and a.out_qty!=0;
 	
 	
